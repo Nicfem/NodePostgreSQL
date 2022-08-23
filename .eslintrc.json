@@ -1,0 +1,36 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es6": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "no-unused-vars" : "error",
+        "semi": [
+            "error",
+            "never"
+        ],
+        "no-var" : "error",
+        "prefer-const" : "error",
+        "comma-dangle" : ["error", "never"]
+    }
+}
